@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Homework</title>
+    <style>
+        * {
+            font-size: 1.3rem;
+        }
+
+        pre {
+            background: silver;
+
+        }
+
+        .green {
+            color: green;
+        }
+
+        li:nth-child(odd) {
+            background: #e1e6e5;
+            margin: 1rem 0;
+        }
+        
+        #task2 input{
+            margin: 100px 5px 100px;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+            text-align: left;
+        }
+        #task2 button{
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        window.addEventListener("load", () => {
+            document.getElementsByTagName("ol")[0].addEventListener("dblclick", (e) => {
+                e.target.style.backgroundColor = "green"
+                e.target.style.opacity = ".3"
+                e.target.style.fontSize = ".8rem"
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <ol>
+        <li>
+            Створіть програму секундомір.
+            <br>
+            * Секундомір матиме 3 кнопки "Старт, Стоп, Скидання"<br>
+            * При натисканні на кнопку стоп фон секундоміра має бути червоним, старт - зелений, скидання - сірий
+            * Виведення лічильників у форматі ЧЧ:ММ:СС<br>
+            * Реалізуйте Завдання використовуючи синтаксис ES6 та стрілочні функції
+        </li>
+    </ol>
+
+    <!--stopwatch-->
+
+    <style>
+        .black {
+            background: black;
+        }
+
+        .silver {
+            background: rgba(88, 88, 88, .5);
+        }
+
+        .red {
+            background: rgba(231, 40, 40, 0.5);
+        }
+
+        .green {
+            background: rgba(39, 211, 76, 0.5);
+        }
+
+        .container-stopwatch {
+
+            width: fit-content;
+            padding: 1rem;
+            text-align: center;
+            border-radius: .5rem;
+            box-shadow: 0 0 10px black;
+        }
+
+        .stopwatch-display {
+            background: rgba(22, 97, 12, 0.5);
+            padding: 1.5rem;
+            font-weight: bold;
+            box-sizing: border-box;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .stopwatch-display span {
+            font-size: 2rem;
+        }
+
+        .stopwatch-control button {
+            text-transform: uppercase;
+            color: white;
+            background: rgba(0, 0, 0, 0.829);
+            border: none;
+            cursor: grab;
+        }
+
+        .stopwatch-control button:nth-child(2) {
+            margin: 0 .5rem;
+        }
+    </style>
+
+    <div class="container-stopwatch black">
+        <div class="stopwatch-display"><span>00</span>:<span>00</span>:<span>00</span></div>
+        <div class="stopwatch-control"><button>Start</button><button>Stop</button><button>Reset</button></div>
+    </div>
+
+<script src="./index.js"></script>
+</body>
+
+</html>

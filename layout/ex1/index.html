@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapper Bully</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,600;0,700;1,600;1,700&family=Volkhov&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--header start-->
+
+    <header class="header__first">
+        <div class="header">
+        <figure>
+            <a tabindex="1" class="header__logo" href="#"><img src="./img/logo.svg" alt="logo"></a>
+        </figure>
+             <nav>
+                <div class="nav__container">
+                    <ul class="header__nav">
+                        <li class="header__nav__li"><a tabindex="2" href="#">Appointment</a></li>
+                        <li class="header__nav__li"><a tabindex="3" href="#galery">Gallery</a></li>
+                        <li class="header__nav__li"><a tabindex="4" href="#servises">Services</a></li>
+                        <li class="header__nav__li"><a tabindex="5" href="#team">Team</a></li>
+                        <li class="header__nav__li"><a tabindex="6" href="#">Reviews</a></li>
+                        <li class="header__nav__li"><a tabindex="7" href="#contacts">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+       
+    </header>
+
+<!--header end-->
+
+<main>
+
+<!--page 1 start-->
+
+    <section id="galery">  
+
+        <h6 class="hidden">galery</h6>
+
+        <div class="page__galery">
+            
+            <figure class="left">
+                <img class="type2" id="page1__el1" src="./img/page1/rectangle21.png" alt="img5">
+            </figure>
+            
+            <figure class="center__left">
+                <img class="type1 position__top" id="page1__el2" src="./img/page1/rectangle20.png" alt="img1">
+                <img class="type1 position__down" id="page1__el3" src="./img/page1/rectangle25.png" alt="img3">
+            </figure>
+
+            <figure class="center__right">
+                <img class="type1 position__top" id="page1__el4" src="./img/page1/rectangle22.png" alt="img2">
+                <img class="type1 position__down" id="page1__el5" src="./img/page1/rectangle23.png" alt="img4">
+            </figure>
+
+            <figure class="right">  
+                <img class="type2" id="page1__el6" src="./img/page1/rectangle24.png" alt="img6">
+            </figure>
+
+        </div>
+    </section>
+
+<!--page 1 end-->
+
+<!--page 2 start-->
+
+    <section tabindex="9" id="servises">
+        <h6 class="hidden">servises</h6>
+        <div class="page__servises">
+            <div class="page2_img">
+
+                <figure class="page2__img__container page2__img1">
+                    <img src="./img/page2/ellipse1.png" alt="img1">
+                    <figcaption>Hair Styling</figcaption>
+                </figure>
+
+                <figure class="page2__img__container page2__img2">
+                    <img src="./img/page2/ellipse2.png" alt="img1">
+                    <figcaption class="hidden">Hair</figcaption>
+                </figure>
+
+                <figure class="page2__img__container page2__img3">
+                    <img src="./img/page2/ellipse3.png" alt="img1">
+                    <figcaption>Smooth Shave</figcaption>
+                </figure>
+
+                <figure class="page2__img__container page2__img4">
+                    <img src="./img/page2/ellipse4.png" alt="img1">
+                    <figcaption>Hair Straightening</figcaption>
+                </figure>
+
+            </div>
+
+            <div class="page2__right__img"></div>
+        </div>  
+    </section>
+
+<!--page 2 end-->
+
+<!--page 3 start-->
+
+    <section tabindex="10" id="team">
+        <div class="page__team">
+                <header class="page__team__header">
+                    <h3>Meet Our Highly Skilled Experts</h3>
+                </header>
+                <div class="card__container">
+                    
+                    <figure class="page3__card" id="card1" tabindex="11">
+                        <img src="./img/page3/rectangle8.png" alt="Meredith">
+                        <figcaption class="card__title">Meredith</figcaption>
+                    </figure>
+                  
+                    <figure class="page3__card" id="card2" tabindex="12">
+                        <img src="./img/page3/rectangle12.png" alt="Jason">
+                        <figcaption class="card__title">Jason</figcaption>
+                    </figure>
+
+                    <figure class="page3__card" id="card3" tabindex="13">
+                        <img src="./img/page3/rectangle13.png" alt="Ryan">
+                        <figcaption class="card__title">Ryan</figcaption>
+                    </figure>    
+
+                    <figure class="page3__card" id="card4" tabindex="14">
+                        <img src="./img/page3/rectangle9.png" alt="James">
+                        <figcaption class="card__title">James</figcaption>
+                    </figure>
+
+                </div>
+        </div>
+    </section>
+<!--page 3 end-->
+
+<!--page 4 start-->
+
+    <section id="contacts">
+
+        <h6 class="hidden">contacts</h6>
+
+        <div class="page__contact" tabindex="15">
+
+            <section class="page__contact__left">
+
+                <h4 class="page__contact__left__title">
+                    Get in touch with Us and send a Message
+                </h4>
+
+                <form class="form__container">
+
+                    <div class="form__input">
+
+                        <div class="text__container" tabindex="16">
+                            <input class="color__grey" type="text" id="el__form1" required placeholder=Name>
+                        </div>
+                        
+                        <div class="email__container" tabindex="17">
+                            <input type="email" id="el__form2" required placeholder=Email>
+                        </div>
+
+                    </div>
+
+                    <div class="textarea" tabindex="18">
+                        <textarea name="Message" id="el__form3" cols="50" rows="10" placeholder=Message></textarea>
+                    </div>
+             
+                    <button class="button__send" tabindex="19"><span>Send</span></button>
+                </form>
+            </section>
+
+            <div class="page__contact__right" tabindex="20">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96865.14705513314!2d-73.99857086838365!3d40.651140234007656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b67d3d9185b%3A0xbbef6c0eac64ea8d!2zODM2IE5ldyBZb3JrIEF2ZSwgQnJvb2tseW4sIE5ZIDExMjAzLCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2sua!4v1675962939837!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+        <footer class="footer__container">
+
+                <address class="container1">    
+                        <div><a href="mailto:kumarpratiyush1405@gmail.com" tabindex="21"><span>Email :</span> kumarpratiyush1405@gmail.com</a></div>
+                        <div><a href="tel:+972723429834" tabindex="22"><span>Phone :</span> +(972) 723429834</a></div>
+                        <div tabindex="23"><span>Headquarters :</span> 836th Avenue, 3rd Floor,<br>
+                            New York,<br>
+                            New York
+                        </div>
+                </address>
+
+                <section class="container2" tabindex="24">
+                    <h5>Opening Hours</h5>
+                    <p>Monday - Friday : 10:00 am - 05:00 pm</p>
+                    <p>Saturday : 10:00 am - 02:00 pm</p>
+                </section>
+
+                <section class="container3">
+                    <h5>Connect With Us On</h5>
+                    <ul class="container3__link">
+                        <li class="instagram"><a href="https://www.instagram.com/" target="_blank" tabindex="25">Instagram</a></li>
+                        <li class="facebook"> <a href="https://uk-ua.facebook.com/" tabindex="26">Facebook</a></li>
+                        <li class="twitter"><a href="https://twitter.com/" tabindex="27"> Twitter</a></li>
+                    </ul>
+                </section>
+
+        </footer>
+    
+<!--page 4 end-->
+
+</body>
+</html>
